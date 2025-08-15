@@ -1,0 +1,13 @@
+<div class="upload-box p-4 border rounded text-center bg-light">
+  <p class="text-muted">{{ 'UPLOAD_DESC' | translate }}</p>
+  <input 
+    type="file" 
+    class="form-control mb-3"
+    (change)="onFileChange($event)" />
+
+  <button 
+    class="btn btn-primary w-100"
+    (click)="ActionBtnClick()">
+    {{ 'UPLOAD_BUTTON' | translate }}
+  </button>
+</div>

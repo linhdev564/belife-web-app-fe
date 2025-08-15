@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <!-- Logo / App name -->
+    <a class="navbar-brand fw-bold" routerLink="/">
+      {{ 'APP_NAME' | translate }}
+    </a>
+
+    <!-- Toggle button for mobile -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <!-- Left menu -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/fitness-package">{{ 'MENU.FITNESS_PACKAGE' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">{{ 'MENU.TRAINING_SCHEDULE' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">{{ 'MENU.NOTIFICATION' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">{{ 'MENU.INDIVIDUAL' | translate }}</a>
+        </li>
+      </ul>
+
+      <!-- Language selector -->
+      <form class="d-flex">
+        <select
+          (change)="changeLang($event)"
+          class="form-select form-select-sm"
+          style="min-width: 120px"
+        >
+          <option value="vi">{{ 'LANG_VI' | translate }}</option>
+          <option value="en">{{ 'LANG_EN' | translate }}</option>
+        </select>
+      </form>
+    </div>
+  </div>
+</nav>

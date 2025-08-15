@@ -1,0 +1,15 @@
+{
+  "APP_NAME": "TimeSoft - kiểm tra",
+  "LANG_VI": "Tiếng Việt",
+  "LANG_EN": "Tiếng Anh",
+  "FOOTER_COPYRIGHT": "Bảo lưu mọi quyền.",
+  "MENU": {
+    "FITNESS_PACKAGE": "Gói tập",
+    "TRAINING_SCHEDULE": "Lịch tập",
+    "NOTIFICATION": "Thông báo",
+    "INDIVIDUAL": "Cá nhân"
+  },
+  "UPLOAD_DESC": "Chọn file để tải lên",
+  "UPLOAD_TITLE": "Tải lên file",
+  "UPLOAD_BUTTON": "Tải lên"
+}

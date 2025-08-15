@@ -1,0 +1,10 @@
+<section class="hero">
+  <div class="hero-text">
+    <h1>{{ 'APP_NAME' | translate }}</h1>
+  </div>
+  <app-upload-box 
+    [allowedType]="selectedFrom" 
+    (fileSelected)="onFileSelected($event)" 
+    (ActionBtn)="onActionBtnClick()">
+  </app-upload-box>
+</section>

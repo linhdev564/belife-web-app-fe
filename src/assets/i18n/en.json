@@ -1,0 +1,15 @@
+{
+  "APP_NAME": "TimeSoft - test",
+  "LANG_VI": "Vietnamese",
+  "LANG_EN": "English",
+  "FOOTER_COPYRIGHT": "All rights reserved.",
+  "MENU": {
+    "FITNESS_PACKAGE": "Package",
+    "TRAINING_SCHEDULE": "Schedule",
+    "NOTIFICATION": "Notification",
+    "INDIVIDUAL": "Individual"
+  },
+  "UPLOAD_DESC": "Select file to upload",
+  "UPLOAD_TITLE": "Upload File",
+  "UPLOAD_BUTTON": "Upload"
+}

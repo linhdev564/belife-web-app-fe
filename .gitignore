@@ -10,7 +10,7 @@ temp/
 # Environment files (để tránh lộ API key, password...)
 *.env
 *.local
-src/environments/environment*.ts
+#src/environments/environment*.ts
 
 # IDE / Editor settings
 .vscode/

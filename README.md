@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+Hướng dẫn chạy
+1. clone source
+2. thực hiện lệnh tải node_module: 
+	npm install
+3. run source:
+	ng serve
+4. build source:
+	ng build
